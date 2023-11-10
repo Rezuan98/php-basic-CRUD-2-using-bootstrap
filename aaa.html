@@ -1,0 +1,24 @@
+<tr>
+    <td><?php echo $row['ID'];?> </td>
+    <td><?php echo $row['Name'];?> </td>
+    <td><img height="100" width="100" src="img/<?php echo $row['img_name'];  ?>" alt=""></td>
+    <td><?php echo $row['Email'];?> </td>
+    <td><?php echo $row['Roll'];?> </td>
+    <td><a href="edit.php?idno= <?php echo $row['ID']; ?>">edit</a></td>
+    <td><input type="checkbox" name="multiple_id[]" value="<?php echo $row['ID'] ?>"></td>
+    <td><a href="view.php?idno=<?php echo row['ID'] ?>">View</a></td>
+    </tr>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>
+            This is just a dummy code
+        </h1>
+    </body>
+    </html>

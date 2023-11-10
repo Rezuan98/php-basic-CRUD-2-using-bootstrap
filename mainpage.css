@@ -1,0 +1,28 @@
+.navbar{
+    text-align:cente;
+
+  }
+  .navbar nav a{
+    text-decoration:none;
+    padding:10px;
+    color:#F0FFFF;
+    
+  }
+  .navbar nav{
+    background-color:#8B008B;
+    padding:20px;
+  }
+  .input_section{
+    text-align:center;
+    width:600px;
+    margin:auto;
+  }
+  .datatable{
+    text-align:center;
+    margin:auto;
+    width:700px;
+   
+  }
+  #table{
+    border:1px solid green;
+  }
